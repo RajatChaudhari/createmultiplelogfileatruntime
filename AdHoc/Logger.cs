@@ -17,6 +17,7 @@ namespace Entities
         public Logger()
         {
             log4net.Config.BasicConfigurator.Configure();
+
             logger = LogManager.GetLogger("ErrorLog");
         }
 
